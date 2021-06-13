@@ -1,0 +1,7 @@
+./travelMonitorClient -m 3 -b 100 -c 10 -s 1000 -i ./input_dir -t 3
+/travelRequest 10 1-12-2020 Turkey France COVID-19
+/travelStats COVID-19 10-1-2001 11-2-2021
+/addVaccinationRecords China
+/searchVaccinationStatus 10
+
+./create_infiles.sh citizenRecordsFile input_dir 5
