@@ -6,4 +6,4 @@ This program is a traveling monitor service that decides who can travel given hi
 
 usage: ./travelMonitorClient –m numberOfServers -b socketBufferSize(read/write) -c cyclicBufferSize -s sizeOfBloomFilter -i input_dir -t numberOfThreads
 
-cyclicBuffer: a buffer that gathers information like folders to add to database for threads to take.
+cyclicBuffer: a buffer that gathers information like, folders to add to database, for threads to take.
